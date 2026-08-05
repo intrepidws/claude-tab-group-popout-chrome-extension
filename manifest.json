@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Claude Tab Group Popout",
+  "version": "1.1.0",
+  "description": "Automatically moves any tab group whose title contains \"Claude\" into its own window.",
+  "minimum_chrome_version": "89",
+  "permissions": ["tabGroups"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
